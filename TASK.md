@@ -32,7 +32,6 @@ $80,001 - $180,000      $17,547 plus 37c for each $1 over $80,000
 $180,001 and over       $54,547 plus 45c for each $1 over $180,000
 
 The tax table is from ATO: http://www.ato.gov.au/content/12333.htm
-https://www.ato.gov.au/Rates/Individual-income-tax-rates/
 
 Example Data
 Employee annual salary is 60,050, super rate is 9%, how much will this employee be paid for the month of March ?

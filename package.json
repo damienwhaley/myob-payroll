@@ -1,1 +1,30 @@
-{}
+{
+  "name": "myob-payroll",
+  "description": "Payroll App -----------",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damienwhaley/myob-payroll.git"
+  },
+  "author": "Damien Whaley <damien@damienwhaley.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damienwhaley/myob-payroll/issues"
+  },
+  "homepage": "https://github.com/damienwhaley/myob-payroll#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  },
+  "dependencies": {
+    "decimal.js": "^5.0.3",
+    "nconf": "^0.8.4"
+  }
+}
