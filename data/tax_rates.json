@@ -1,0 +1,214 @@
+[
+	{
+		"start": "2015-07-01",
+		"end": "2016-06-30",
+		"rates": [
+			{
+				"min": 0.0,
+				"max": 18200.0,
+				"tax_fixed": 0.0,
+				"tax_excess": 0.0,
+				"tax_excess_over": 0.0
+			},
+			{
+				"min": 18201.0,
+				"max": 37000.0,
+				"tax_fixed": 0.0,
+				"tax_excess": 0.19,
+				"tax_excess_over": 18200.0
+			},
+			{
+				"min": 37001.0,
+				"max": 80000.0,
+				"tax_fixed": 3572.0,
+				"tax_excess": 0.325,
+				"tax_excess_over": 37000.0
+			},
+			{
+				"min": 80001.0,
+				"max": 180000.0,
+				"tax_fixed": 17547.0,
+				"tax_excess": 0.45,
+				"tax_excess_over": 80000.0
+			},
+			{
+				"min": 180001.0,
+				"max": null,
+				"tax_fixed": 54547.0,
+				"tax_excess": 0.37,
+				"tax_excess_over": 180000.0
+			}
+		],
+		"levies": [
+			{
+				"name": "Medicare levy",
+				"levy_percent": 2.0,
+				"min_income": 0.0
+			},
+			{
+				"name": "Temporary Budget Repair Levy",
+				"levy_percent": 2.0,
+				"min_income": 180001.0
+			}
+		]
+	},
+	{
+		"start": "2014-07-01",
+		"end": "2015-06-30",
+		"rates": [
+			{
+				"min": 0.0,
+				"max": 18200.0,
+				"tax_fixed": 0.0,
+				"tax_excess": 0.0,
+				"tax_excess_over": 0.0
+			},
+			{
+				"min": 18201.0,
+				"max": 37000.0,
+				"tax_fixed": 0.0,
+				"tax_excess": 0.19,
+				"tax_excess_over": 18200.0
+			},
+			{
+				"min": 37001.0,
+				"max": 80000.0,
+				"tax_fixed": 3572.0,
+				"tax_excess": 0.325,
+				"tax_excess_over": 37000.0
+			},
+			{
+				"min": 80001.0,
+				"max": 180000.0,
+				"tax_fixed": 17547.0,
+				"tax_excess": 0.45,
+				"tax_excess_over": 80000.0
+			},
+			{
+				"min": 180001.0,
+				"max": null,
+				"tax_fixed": 54547.0,
+				"tax_excess": 0.37,
+				"tax_excess_over": 180000.0
+			}
+		],
+		"levies": [
+			{
+				"name": "Medicare levy",
+				"levy_percent": 2.0,
+				"min_income": 0.0
+			},
+			{
+				"name": "Temporary Budget Repair Levy",
+				"levy_percent": 2.0,
+				"min_income": 180001.0
+			}
+		]
+	},
+	{
+		"start": "2013-07-01",
+		"end": "2014-06-30",
+		"rates": [
+			{
+				"min": 0.0,
+				"max": 18200.0,
+				"tax_fixed": 0.0,
+				"tax_excess": 0.0,
+				"tax_excess_over": 0.0
+			},
+			{
+				"min": 18201.0,
+				"max": 37000.0,
+				"tax_fixed": 0.0,
+				"tax_excess": 0.19,
+				"tax_excess_over": 18200.0
+			},
+			{
+				"min": 37001.0,
+				"max": 80000.0,
+				"tax_fixed": 3572.0,
+				"tax_excess": 0.325,
+				"tax_excess_over": 37000.0
+			},
+			{
+				"min": 80001.0,
+				"max": 180000.0,
+				"tax_fixed": 17547.0,
+				"tax_excess": 0.45,
+				"tax_excess_over": 80000.0
+			},
+			{
+				"min": 180001.0,
+				"max": null,
+				"tax_fixed": 54547.0,
+				"tax_excess": 0.37,
+				"tax_excess_over": 180000.0
+			}
+		],
+		"levies": [
+			{
+				"name": "Medicare levy",
+				"levy_percent": 2.0,
+				"min_income": 0.0
+			},
+			{
+				"name": "Temporary Budget Repair Levy",
+				"levy_percent": 2.0,
+				"min_income": 180001.0
+			}
+		]
+	},
+	{
+		"start": "2012-07-01",
+		"end": "2013-06-30",
+		"rates": [
+			{
+				"min": 0.0,
+				"max": 18200.0,
+				"tax_fixed": 0.0,
+				"tax_excess": 0.0,
+				"tax_excess_over": 0.0
+			},
+			{
+				"min": 18201.0,
+				"max": 37000.0,
+				"tax_fixed": 0.0,
+				"tax_excess": 0.19,
+				"tax_excess_over": 18200.0
+			},
+			{
+				"min": 37001.0,
+				"max": 80000.0,
+				"tax_fixed": 3572.0,
+				"tax_excess": 0.325,
+				"tax_excess_over": 37000.0
+			},
+			{
+				"min": 80001.0,
+				"max": 180000.0,
+				"tax_fixed": 17547.0,
+				"tax_excess": 0.45,
+				"tax_excess_over": 80000.0
+			},
+			{
+				"min": 180001.0,
+				"max": null,
+				"tax_fixed": 54547.0,
+				"tax_excess": 0.37,
+				"tax_excess_over": 180000.0
+			}
+		],
+		"levies": [
+			{
+				"name": "Medicare levy",
+				"levy_percent": 2.0,
+				"min_income": 0.0
+			},
+			{
+				"name": "Temporary Budget Repair Levy",
+				"levy_percent": 2.0,
+				"min_income": 180001.0
+			}
+		]
+	}
+]
