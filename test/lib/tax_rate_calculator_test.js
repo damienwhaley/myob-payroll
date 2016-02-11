@@ -211,7 +211,7 @@ describe('Tax Rate Calculator', function () {
 
 	describe('calculateSuper', function () {
 
-		it('should caculate the correct super based on the example provided', function (done) {
+		it('should calculate the correct super based on the example provided', function (done) {
 
 			var superRateFixture = 9.0;
 			var incomeAmountFixture = 5004.0;
@@ -222,7 +222,7 @@ describe('Tax Rate Calculator', function () {
 			done();
 		});
 
-		it('should caculate the correct super for other amounts (wouldn\'t this be nice)', function (done) {
+		it('should calculate the correct super for other amounts (wouldn\'t this be nice)', function (done) {
 
 			var superRateFixture = 17.0;
 			var incomeAmountFixture = 8333.0;
@@ -230,6 +230,25 @@ describe('Tax Rate Calculator', function () {
 			var result = taxRateCalculator.calculateSuper(superRateFixture, incomeAmountFixture);
 
 			result.should.equal(1417);
+			done();
+		});
+
+		it('should not calculate the correct super if incorrect super value passed in', function (done) {
+
+			var incomeAmountFixture = 10000.0;
+
+			var result1 = taxRateCalculator.calculateSuper(null, incomeAmountFixture);
+			result1.should.equal(0);
+
+			var result2 = taxRateCalculator.calculateSuper(0.0, incomeAmountFixture);
+			result2.should.equal(0);
+
+			var result3 = taxRateCalculator.calculateSuper(-10.0, incomeAmountFixture);
+			result3.should.equal(0);
+
+			var result3 = taxRateCalculator.calculateSuper(50.1, incomeAmountFixture);
+			result3.should.equal(0);
+
 			done();
 		});
 
